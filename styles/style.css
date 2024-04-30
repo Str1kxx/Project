@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'FiraSans Extraligth';
+    src: url("../fonts/FiraSans-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: 'FiraSans Regular';
+    src: url("../fonts/FiraSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Garamond';
+    src: url("../fonts/EBGaramond-Bold.ttf");
+}
+
+body {
+    background-color: white;
+    font-family: 'FiraSans Regular', sans-serif;
+    color: black; 
+}
+
+.container { 
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.button {
+    background-color: #05B093;
+    border-radius: 50px;
+    width: 175px;
+    height: 51px;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px; 
+    color: white;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+header { 
+    background-color: black;
+    padding: 32px;
+    height: 40px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.menu { 
+    margin-left: 208px;
+    margin-top: 9px;
+}
+
+.menu-list { 
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-list a {
+    font-size: 16px;
+    line-height: 140%;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+}
+
+.slider-main-image {
+    margin-top: 60px;
+    border-radius: 12px;
+}
+
+.slider-menu {
+    margin-top: 60px;
+    margin-left: 24px;
+}
+
+.slider-list {
+    background-color: rgb(0, 0, 0, 0.05);
+    width: 416px;
+    height: 104px;
+    margin-bottom: 16px;
+    display: flex;
+    list-style: none;
+    border-radius: 8px;
+}
+
+.slider-list-image {
+    width: 80px;
+    height: 80px;
+    margin: 12px 24px 12px 16px;
+    border-radius: 8px;
+}
+
+.slider-list-text {
+    font-size: 16px;
+    line-height: 140%;
+    margin: 41px 16px 41px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.event-posters {
+    margin-top: 184px;
+}
+
+.section-header {
+    display: flex;
+}
+
+.section-header-title {
+    font-family: 'Garamond', sans-serif;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.section-header-list {
+    display: flex;
+    margin: 13.5px 0 13.5px 876px;
+}
+
+.section-header-image {
+    width: 35px;
+    height: 35px;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+}
+
+.section-header-text {
+    font-family: 'Garamond', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 6px -6px 3px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.event-posters-inner-wrapper {
+    margin-top: 100px;
+}
+
+.posters {
+    background-color:  rgb(0, 0, 0, 0.05);
+    display: flex;
+    border-radius: 16px;
+    width: 1300px;
+}
+
+.posters-data {
+    width: 79px;
+    height: 119px;
+    margin: 92.5px 0px 92.5px 60px;
+}
+
+.number {
+    font-family: 'Garamond', sans-serif;
+    font-size: 64px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.month { 
+    font-family: 'Garamond', sans-serif;
+    font-size: 32px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.posters-image { 
+    width: 320px;
+    height: 240px;
+    border-radius: 12px;
+    margin: 32px 0 32px 62.33px;
+}
+
+.posters-info-wrapper {
+    width: 415px;
+    height: 200px;
+    margin: 52px 0 52px 62.33px;
+}
+
+.posters-info-title {
+    font-size: 30px;
+    line-height: 140%;
+    margin-bottom: 16px;
+}
+
+.posters-info-text {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.posters-options {
+    margin-right: 106px;
+    display: flex;
+    font-size: 16px;
+    line-height: 140%;
+    list-style: none;
+    gap: 30px;
+}
+
+.posters-options1 {
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.posters-options p {
+    font-size: 16px;
+    line-height: 140%;
+    margin: 5px 0 5px 20px;
+}
+
+.posters-button { 
+    margin: 126.5px 60px 126.5px 62.33px;
+}
+
+.news-title {
+    font-family: 'Garamond', sans-serif;
+    margin: 136px 134px 60px 0;
+    width: 636px;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.news-inner-wrapper {
+    display: flex;
+}
+
+.news-posters {
+    width: 306px;
+    margin-right: 24px;
+}
+
+.news-info-title {
+    font-family: 'Garamond', sans-serif;
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.news-info-text {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.calendar {
+    border-radius: 12px;
+}
+
+.calendar-image-wrapper {
+    width: 526px;
+    height: 300px;
+    margin-top: 136px;
+}
+
+.calendar-image-title {
+    font-family: 'Garamond', sans-serif;
+    margin-top: -69px;
+    margin-left: 24px;
+    font-size: 32px;
+    color: white;
+}
+
+.calendar-dates-wrapper {
+    background-color: #1919190D;
+    display: flex;
+    width: 526px;
+    height: 264px;
+}
+
+.calendar-left-wrapper {
+    width: 154px;
+    margin: 24px 20px 24px 20px;
+}
+
+.calendar-left-title {
+    font-family: 'Garamond', sans-serif;
+    font-size: 32px;
+    line-height: 140%;
+    color: black;
+    margin-bottom: 123px;
+}
+
+.frame-button-image {
+    width: 48px;
+    height: 48px;
+    background-color: #05B093;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    border: 0;
+}
+
+
+.frame {
+    display: flex;
+}
+
+.calendar-right-wrapper{
+    margin: 24px 24px 24px 20px;
+}
+
+.calendar-row {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    background-color: #05B093;
+    border-radius: 4px;
+    margin-right: 4px;
+    border: 0;
+}
+
+.calendar-day p {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 9px 16px 9px 16px;
+}
+
+.announcement-header {
+    margin-top: 160px;
+    display: flex;
+}
+
+.announcement-header-title {
+    font-family: 'Garamond', sans-serif;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.announcement-header-list {
+    display: flex;
+    margin: 13.5px 0 13.5px 660px;
+}
+
+.announcement-header-image {
+    width: 35px;
+    height: 35px;
+    margin: 2.5px;
+}
+
+.announcement-header-text {
+    font-family: 'Garamond', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 3px 0 3px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.announcement-inner-wrapper {
+    margin-top: 100px;
+}
+
+.announcement-itames {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.announcement-itame {
+    display: flex;
+}
+
+.announcement-itame-data {
+    width: 100px;
+    height: 98px;
+    border-radius: 12px;
+    border: 0;  
+    background-color: #05B093;
+}
+
+.announcement-itame-number {
+    font-size: 32px;
+    line-height: 140%;
+    color: white;
+    text-align: center;
+    margin: 16px 42.5px 0 42.5px;
+}
+
+.announcement-itame-month {
+    font-size: 18px;
+    line-height: 140%;
+    color: white;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.announcement-itame-text {
+    font-size: 14px;
+    line-height: 140%;
+    margin: 39px 12px 39px 27px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    margin-top: 150px;
+}
+
+.footer-top-wrapper {
+    margin-top: 60px;
+    display: flex;
+}
+
+.footer-logo {
+    width: 325px;
+    height: 12px;
+    margin-top: 14px;
+}
+
+.footer-columns {
+    width: 416px;
+    margin-left: 110px;
+    margin-right: 24px;
+}
+
+.footer-column-heading {
+    font-family: 'Garamond', sans-serif;
+    font-size: 24px;
+    line-height: 140%;
+    color: white;
+}
+
+.footer-list-1 {
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.footer-list-2 {
+    margin-top: 32px;
+}
+
+.footer-list-2 {
+    line-height: 46px;  
+}
+
+.footer-item {
+    color: white;
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-image {
+    margin-top: 60px;
+}
+
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.363);
+    margin: 32px 0;
+}
